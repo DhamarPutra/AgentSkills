@@ -1,7 +1,6 @@
 ---
 name: code-ai-detector
 description: Detect project using AI or not.
-license: Complete terms in LICENSE.txt
 ---
 
 # Skill: Detect AI Coding Patterns

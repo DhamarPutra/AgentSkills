@@ -1,7 +1,6 @@
 ---
 name: groq-web-gen
 description: InstaWeb AI Prompt Engineering guidelines for building low-latency, highly customized Indonesian UMKM landing pages.
-license: Complete terms in LICENSE.txt
 ---
 
 # InstaWeb AI Prompt Engineering Reference
