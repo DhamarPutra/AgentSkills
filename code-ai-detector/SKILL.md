@@ -1,3 +1,9 @@
+---
+name: code-ai-detector
+description: Detect project using AI or not.
+license: Complete terms in LICENSE.txt
+---
+
 # Skill: Detect AI Coding Patterns
 Analisis kode untuk mendeteksi kemungkinan ditulis oleh AI berdasarkan pola-pola spesifik di bawah ini. Indikator ini digunakan untuk memberikan metrik tambahan dalam evaluasi proyek tanpa memengaruhi perhitungan bobot nilai akhir.
 
