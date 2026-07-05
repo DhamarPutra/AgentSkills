@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "super-agent": {
+      "source": "DhamarPutra/AgentSkills",
+      "sourceType": "github",
+      "skillPath": "super-agent/SKILL.md",
+      "computedHash": "f71eeb5ca834c4aee1dc56203a347c927807bce5353a444047874fa9c8a67d64"
+    }
+  }
+}
