@@ -16,6 +16,29 @@ permissions:
   contents: write
 
 jobs:
+  # ─── Validate super-agent Skill ───────────────────────────────────────────
+  validate-skill:
+    name: Validate super-agent Skill
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run skill validator
+        run: python super-agent/scripts/validate_skill.py
+
+      - name: Verify generate_docs.py syntax
+        run: python -m py_compile super-agent/generate_docs.py && echo "Syntax OK"
+
+      - name: Verify dry-run works
+        run: python super-agent/generate_docs.py --dry-run
+
+  # ─── Log Update (existing job) ────────────────────────────────────────────
   build:
     runs-on: ubuntu-latest
 
