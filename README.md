@@ -28,6 +28,7 @@ Copy the skill folder into your workspace's `.agents/skills/` directory:
 ```bash
 # Example: install super-agent skill
 cp -r super-agent/ your-project/.agents/skills/super-agent/
+npx skills add https://github.com/DhamarPutra/AgentSkills --skill super-agent
 ```
 
 Your AI agent will automatically discover and load the skill.
